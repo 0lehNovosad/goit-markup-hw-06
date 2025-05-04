@@ -611,11 +611,9 @@ a {
   transform: translate(-50%, -50%) scale(1.5);
 }
 
-.icon-close {
-  width: 8px;
-  height: 8px;
-  fill: black;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.icons-close {
+    fill: var(--navy-blue);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-close-btn {
@@ -644,11 +642,10 @@ a {
   border: none;
 }
 
-.icon-close-btn:hover .icon-close,
-.icon-close-btn:focus .icon-close {
-  fill: #fff;
+.icon-close-btn:hover .icons-close,
+.icon-close-btn:focus .icons-close {
+    fill: var(--white);
 }
-
 .label-modal {
   display: flex;
   flex-direction: column;
